@@ -1,0 +1,2 @@
+This script, developed by Howard van Meer (howard.vanmeer@wur.nl or vanmeer.howard@inta.gob.ar), is intended to process the new CDS beta seasonal daily forecasts available at: https://cds-beta.climate.copernicus.eu/datasets/seasonal-original-single-levels?tab=overview. 
+The provided NETCDF files are CF 1.7 compliant and in order to be used in CDO they require conversion and dimension transposition using this script, as they cannot be directly used in CDO in their current format as of August 2024.
